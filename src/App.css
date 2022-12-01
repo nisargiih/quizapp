@@ -36,3 +36,23 @@
     transform: rotate(360deg);
   }
 }
+.container{
+  border: 2px solid black;
+  text-align: center;
+  width: 40%;
+  margin: auto;
+  border-radius: 15px;
+  display: grid;
+}
+.btn{
+  border-radius: 8px;
+  width: 30%;
+  margin: auto;
+  margin-bottom: 5px;
+}
+.btn:hover{
+  background-color: aqua;
+}
+.div{
+  text-align: center;
+}
