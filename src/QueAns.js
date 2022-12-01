@@ -12,8 +12,6 @@ export default function QueAns(ans, rightans) {
     } else {
       if (score === 0) {
         setScore(0)
-      } else {
-        setScore(score - 1)
       }
     }
     console.log()
