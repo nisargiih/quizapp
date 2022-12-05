@@ -1,4 +1,4 @@
-import { useRef, useState } from 'react';
+import { useState } from 'react';
 import './App.css';
 import Result from './Result';
 export default function QueAns(ans, rightans) {
@@ -21,7 +21,6 @@ export default function QueAns(ans, rightans) {
       setIsFinished(true)
     }
   }
-  // console.log(QueNo === questions.length)
   return (
 
     <div className='container'>

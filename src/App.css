@@ -39,10 +39,16 @@
 .container{
   border: 2px solid black;
   text-align: center;
-  width: 40%;
+  width: 30%;
   margin: auto;
   border-radius: 15px;
   display: grid;
+}
+
+@media screen and (max-width : 650px){
+  .container{
+    width: 90%;
+  }
 }
 .btn{
   border-radius: 8px;
